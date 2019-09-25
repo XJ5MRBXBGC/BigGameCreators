@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+*{
+	font-family: 'Be Vietnam', sans-serif;
+}
+head{
+	font-size: 28px;
+}
+.left{
+	float: left;
+	text-align: left;
+}
+.center{
+	float: center;
+	text-align: center;
+}
+.right{
+	float: right;
+	text-align: right;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  text-decoration: none;
+}
+
+.li {
+  float: left;
+  text-decoration: none;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover {
+  background-color: #111;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.btn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  color: #3498db;
+}
+.btn:hover{
+  color: #fff;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn:before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn:hover:before{
+  height: 180%;
+}
+.container{
+  text-align: center;
+  margin-top: 360px;
+}
+.gameIcon{
+	background-color: #2a2d30;
+	width: 180px;
+	color: white;
+}
+.Bigger{
+	size: 18px;
+}
+.link{
+	float: center;
+}
+.White{
+	color: #fff;
+}
+.LinkHref{
+	text-decoration: none;
+	color: white;
+}
+.gameIconCenter{
+	background-color: #2a2d30;
+	width: 180px;
+	color: white;
+	float: center;
+	text-decoration: none;
+}
