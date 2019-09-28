@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-*{
-	font-family: 'Be Vietnam', sans-serif;
-}
 head{
 	font-size: 28px;
 }
@@ -18,39 +15,7 @@ head{
 	float: right;
 	text-align: right;
 }
-.ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  text-decoration: none;
-}
 
-.li {
-  float: left;
-  text-decoration: none;
-}
-
-.li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.li a:hover {
-  background-color: #111;
-  text-decoration: none;
-}
-
-.active {
-  background-color: #4CAF50;
-}
 .btn{
   border: 1px solid #3498db;
   background: none;
